@@ -58,5 +58,4 @@ class AccountTax(models.Model):
         '''This module is incompatible with this new method introduced
         in Odoo v8 on August 24th 2015. So I inherit this method to
         return the same price as input'''
-        print "_fix_tax_included_price====", price
         return price
